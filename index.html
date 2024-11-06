@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1>Flipkart</h1>
+    <div class="cart">
+        cart : <span id="cart-count">0</span>
+    </div>
+  </header>
+
+ <!-- product -->
+
+         <div class="product">
+            <img class="product-image" src="https://m.media-amazon.com/images/I/81u1y4L2OoL._AC_UF350,350_QL80_.jpg" alt="">
+            <h2>Jewelry Box</h2>
+            <p>Price:$165</p>
+            <button onclick="addToCart('Jewelry Box','https://m.media-amazon.com/images/I/81u1y4L2OoL._AC_UF350,350_QL80_.jpg',165)">Add To Cart</button>
+         </div>
+          
+
+<!-- cart section -->
+
+<div class="cart-section">
+<h2>Cart Items</h2>
+<div id="cart-items">
+<p>Your cart is empty</p>
+</div>
+</div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
